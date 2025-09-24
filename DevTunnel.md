@@ -1,21 +1,23 @@
-##DevTunnel 
-1. Install DevTunnel
+# DevTunnel 
+## 1. Install DevTunnel
 
 Run Powershell --> 
 winget install Microsoft.devtunnel 
 
 Found devtunnel [Microsoft.devtunnel] Version 1.0.1435.39636 successfully installed
 
-2. Sign into you Azure Account
+## 2. Sign into you Azure Account
 
 devtunnel user login  [This opens a browser to authenticate with your Microsoft/Azure identity.]
 
-3. Create a new tunnel
+## 3. Create a new tunnel
 
 
-devtunnel create myragbot --port 3978 --allow-anonymous
+## devtunnel create myragbot --port 3978 --allow-anonymous
 <img width="850" height="153" alt="image" src="https://github.com/user-attachments/assets/6bdc5d0b-d58a-4086-96b6-dbdb8ec59a75" />
-Description:
+
+
+## Description:
   Host a tunnel, if tunnel ID is not specified a new tunnel will be created
 
 Usage:
