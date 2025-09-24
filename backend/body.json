@@ -1,0 +1,9 @@
+{
+  "type": "message",
+  "text": "hello via tunnel",
+  "from": { "id": "u1" },
+  "recipient": { "id": "b1" },
+  "conversation": { "id": "c1" },
+  "id": "m1",
+  "serviceUrl": "http://localhost"
+}
