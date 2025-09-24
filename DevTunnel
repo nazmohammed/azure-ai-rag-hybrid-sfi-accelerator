@@ -1,0 +1,16 @@
+##DevTunnel 
+1. Install DevTunnel
+
+Run Powershell --> 
+winget install Microsoft.devtunnel 
+
+Found devtunnel [Microsoft.devtunnel] Version 1.0.1435.39636 successfully installed
+
+2. Sign into you Azure Account
+
+devtunnel user login  [This opens a browser to authenticate with your Microsoft/Azure identity.]
+
+3. Create a new tunnel
+
+
+devtunnel create myragbot --port 3978 --allow-anonymous
