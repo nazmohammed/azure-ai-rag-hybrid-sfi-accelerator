@@ -283,4 +283,9 @@ If `DEV_BYPASS_AUTH=true` and you omit Authorization header, `main.py` will synt
 
 ---
 
-If you want, I can also add a small pytest to the repo or set `RESTORE_PII` to `false` in `.env.example`. Which would you like next?
+Output:
+<img width="987" height="350" alt="image" src="https://github.com/user-attachments/assets/50bd8d57-1efb-4f49-9004-b98759788748" />
+
+When asked about the ticket: the response is shown below (which is fully anonymized before calling the LLM and after retreival --> the final query is unanonymized to share the full-content with the end-user)
+<img width="794" height="833" alt="image" src="https://github.com/user-attachments/assets/9cd8cb75-90c9-4f18-be5c-a1ee3abb1f49" />
+
