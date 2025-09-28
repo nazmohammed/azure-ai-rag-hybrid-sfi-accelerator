@@ -13,6 +13,8 @@ Hybrid deployment: run retrieval and storage on-prem or in a controlled environm
 Built-in anonymization: automatic PII detection and placeholder mapping ensure sensitive fields are never sent in cleartext to external models; originals can be restored in the final response where policy allows.
 Compliance-first design: supports auditability, minimizes surface area for regulated data, and aligns with common controls (data minimization, encryption-in-transit/at-rest, least privilege).
 Fast path to value: pre-wired RAG pipelines, vectorstore wiring and examples let teams prototype secure assistants quickly without redoing compliance plumbing.
+
+
 How anonymization secures communication: Removes or replaces PII before any outbound requests, reducing the risk of leaks and limiting what must be justified by policy or contract. Uses reversible placeholder mapping so models can reason over anonymized context while the system restores approved pieces in the final output — preserving utility without sacrificing privacy.Enables safe sharing of contextual evidence (logs, tickets, snippets) with external LLMs while keeping the authoritative, re-identifiable data inside the customer’s control plane.
 Bottom line This accelerator unlocks Azure AI for conservative, regulated FSI customers by combining hybrid deployment patterns, strong anonymization, and compliance-aware defaults — delivering AI-driven productivity while keeping regulated data protected.
 
