@@ -20,6 +20,10 @@ Uses reversible placeholder mapping so models can reason over anonymized context
 Enables safe sharing of contextual evidence (logs, tickets, snippets) with external LLMs while keeping the authoritative, re-identifiable data inside the customer’s control plane.
 Bottom line This accelerator unlocks Azure AI for conservative, regulated FSI customers by combining hybrid deployment patterns, strong anonymization, and compliance-aware defaults — delivering AI-driven productivity while keeping regulated data protected.
 
+## Architecture
+<img width="745" height="493" alt="image" src="https://github.com/user-attachments/assets/9c6b3891-2296-4903-a133-77dca7965fe6" />
+
+
 
 ## Structure
 ```
